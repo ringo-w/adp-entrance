@@ -7,6 +7,8 @@ Created a quiz app based on provided requirements, data and views for RED Academ
 1. Clone or download this repository.
 2. A local .json file should be served by a web server: 
       - To skip creating a web server, replace "resources/src/quiz.json" with "https://api.myjson.com/bins/xj34k" for the fetch method in quiz.js
+      
+      OR
 
       - If you are using a MAC: From the directory ADP-Entrance/resources/src/ where the quiz data "quiz.json" resides, run one of the following:
         1. Python 2: $ python -m SimpleHTTPServer 8000
