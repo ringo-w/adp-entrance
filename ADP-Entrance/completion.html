@@ -1,20 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Completion View</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div class="container">
-      <!--show pass or fail message -->
-        <h1 id="passOrFail"></h1>
-        <!-- show final score -->
-        <h3 id="finalScore"></h3>
-        <!-- go back to welcome view -->
-        <button class="btn" onclick="window.location.href='index.html';">Restart</button>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Completion View</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <div id="completion" class="flex-center">
+      <!-- display pass or fail message at the end of the quiz -->
+      <h1 id="passOrFail"></h1>
+      <!-- display the final score -->
+      <h3 id="finalScore"></h3>
+      <!-- button to restart the game back to welcome view (index.html) -->
+      <button class="btn" onclick="window.location.href='index.html';">Restart</button> 
     </div>
-  </body>
+  </div>
+  <script src="completion.js"></script>
+</body>
 </html>

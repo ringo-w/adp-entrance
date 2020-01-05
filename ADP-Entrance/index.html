@@ -6,14 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Welcome View</title>
     <link rel="stylesheet" href="style.css"/>
+    <script src="quiz.js" defer></script>
 </head>
 <body>
     <div class="container">
-        <div id="welcomePage" class="flex-column flex-center">       
+        <div id="welcomePage" class="flex-center">
             <h1>Start</h1>
-            <!-- Welcome View - Quiz selection buttons (go to game.html onclick)-->
-            <button id="0" class="btn" onclick="window.location.href='quiz.html';">Abstract Quiz</button>
-            <button id="1" class="btn" onclick="window.location.href='quiz.html';">Dev Quiz</button>
+            <!-- buttons to select quiz -->
+            <button id="0" class="btn" onclick="quizNum(this)">Abstract Quiz</button>
+            <button id="1" class="btn" onclick="quizNum(this)">Dev Quiz</button>
         </div>
     </div>    
 </body>
