@@ -13,7 +13,7 @@ Created a quiz app based on provided requirements, data and views for RED Academ
       - If you are using a MAC: From the directory ADP-Entrance/resources/src/ where the quiz data "quiz.json" resides, run one of the following:
         1. Python 2: $ python -m SimpleHTTPServer 8000
         2. Python 3: $ python -m http.server 8000
-        Then access by using http://127.0.0.1:8000
+        - Then access by using http://127.0.0.1:8000
 
       OR
 
